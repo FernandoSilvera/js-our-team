@@ -33,7 +33,7 @@ let team = [
 const teamDiv = document.getElementById("team");
 
 // Print team in console
-console.log(Object.values(team));
+console.table(Object.values(team));
 
 // Create team cards in HTML
 for (let i = 0; i < team.length; i++) {
